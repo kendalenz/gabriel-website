@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 
 const Navbar: React.FC = () => {
   const [isMenuOpen, setMenuOpen] = useState(false);
@@ -6,9 +7,9 @@ const Navbar: React.FC = () => {
   return (
     <nav className="flex flex-col md:flex-row justify-between bg-gray-900 text-white w-screen px-5 xl:px-12">
       <div className="py-6 flex md:w-full items-center justify-between">
-        <a className="text-3xl font-bold font-heading" href="#">
+        <Link className="text-3xl font-bold font-heading" to='/'>          
           Gabriel Zapata
-        </a>
+        </Link>
         {/* Responsive navbar (hamburger menu) */}
         <div className="md:hidden flex items-center">
           <button
