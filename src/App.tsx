@@ -1,6 +1,6 @@
 import { Routes, Route } from 'react-router-dom'
 import Navbar from './scenes/navbar'
-import Home from './scenes/home'
+import Home from '@/scenes/home'
 import Mathematics from './scenes/mathematics'
 import Art from './scenes/art'
 import Contact from './scenes/contact'
