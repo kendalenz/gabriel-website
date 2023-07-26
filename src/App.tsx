@@ -1,9 +1,9 @@
 import { Routes, Route } from 'react-router-dom'
-import Navbar from './scenes/navbar/index'
-import Home from './scenes/home/index'
+import Navbar from '././scenes/navbar/index'
+import Home from '././scenes/home/index'
 import Mathematics from './scenes/mathematics'
-import Art from './scenes/art/index'
-import Contact from './scenes/contact/index'
+import Art from '././scenes/art/index'
+import Contact from '././scenes/contact/index'
 
 function App() {
 
