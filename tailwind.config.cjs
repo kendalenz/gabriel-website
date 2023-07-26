@@ -7,7 +7,9 @@ export default {
   theme: {
     extend: {
       colors: {
-        'red-100': '#D2122E'
+        'red-100': '#D2122E',
+        'grey-500': '#262626',
+        'grey-400': '#505050'
       }
     },
   },
