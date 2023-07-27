@@ -1,8 +1,10 @@
 {
+  "extends": "./tsconfig.node.json",
   "compilerOptions": {
+    "baseUrl": ".",
     "allowSyntheticDefaultImports": true,
     "paths": {
-      "@/*": ["./src/*"]
+      "@/*": ["src/*"]
     },
     "target": "ES2020",
     "useDefineForClassFields": true,
