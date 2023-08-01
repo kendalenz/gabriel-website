@@ -2,15 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-/* html,
-body,
-#root,
-.app {
-  height: 100%;
-  width: 100%;
-} */
-
-
 body {
     position: relative; /* Make sure the overlay is positioned relative to the body */
     background-image: url('./assets/test.jpeg');
