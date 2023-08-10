@@ -4,7 +4,7 @@
 
 body {
     position: relative; /* Make sure the overlay is positioned relative to the body */
-    background-image: url('./assets/test.jpeg');
+    background-image: url('./assets/math.jpeg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
