@@ -5,9 +5,9 @@ const Navbar = () => {
   const [isMenuOpen, setMenuOpen] = useState(false);
 
   return (
-    <nav className="flex flex-col md:flex-row justify-between bg-grey-500 text-white w-screen px-5 xl:px-12">
+    <nav className="flex flex-col md:flex-row justify-between bg-black text-white w-screen px-5 xl:px-12">
       <div className="py-6 flex md:w-full items-center justify-between">
-        <Link className="text-3xl font-bold font-heading" to='/'>          
+        <Link className="text-3xl font-thin font-heading" to='/'>          
           Gabriel Zapata
         </Link>
         {/* Responsive navbar (hamburger menu) */}
@@ -34,7 +34,7 @@ const Navbar = () => {
         </div>
       </div>
       {/* Nav Links - Hidden by default on small screens */}
-      <ul className={`hidden md:flex md:px-4 md:mx-auto font-semibold font-heading space-x-12 ${isMenuOpen ? 'md:w-auto md:justify-center' : 'w-screen md:justify-between'} items-center`}>
+      <ul className={`hidden md:flex md:px-4 md:mx-auto font-thin font-heading space-x-12 ${isMenuOpen ? 'md:w-auto md:justify-center' : 'w-screen md:justify-between'} items-center`}>
         <li><a className="hover:text-gray-200" href="#">About</a></li>
         <li><Link className="hover:text-gray-200" to='/mathematics'>Mathematics</Link></li>
         <li><Link className="hover:text-gray-200" to='/art'>Art</Link></li>

@@ -9,7 +9,9 @@ module.exports = {
       colors: {
         'red-100': '#D2122E',
         'grey-500': '#262626',
-        'grey-400': '#505050'
+        'grey-400': '#505050',
+        'grey-100': '#D3D3D3',
+        'black': '#000000'
         // "gray-20": "#F8F4EB",
         // "gray-50": "#EFE6E6",
         // "gray-100": "#DFCCC",
@@ -27,10 +29,7 @@ module.exports = {
         montserrat: ["Montserrat", "sans-serif"]
       },
       content: {
-        evolvetext: "url('./assets/EvolveText.png')",
-        abstractwaves: "url('./assets/AbstractWaves.png')",
-        sparkles: "url('./assets/Sparkles.png')",
-        circles: "url('./assets/Circles.png')",
+      
       }
     },
     screens: {
