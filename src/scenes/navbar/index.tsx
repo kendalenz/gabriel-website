@@ -35,14 +35,14 @@ const Navbar = () => {
       </div>
       {/* Nav Links - Hidden by default on small screens */}
       <ul className={`hidden md:flex md:px-4 md:mx-auto font-thin font-heading space-x-12 ${isMenuOpen ? 'md:w-auto md:justify-center' : 'w-screen md:justify-between'} items-center`}>
-        <li><a className="hover:text-gray-200" href="#">About</a></li>
+        <li><Link className="hover:text-gray-200" to='/'>About</Link></li>
         <li><Link className="hover:text-gray-200" to='/mathematics'>Mathematics</Link></li>
         <li><Link className="hover:text-gray-200" to='/art'>Art</Link></li>
         <li><Link className="hover:text-gray-200" to='/contact'>Contact</Link></li>
       </ul>
       {/* Responsive navbar (hamburger menu) - Hidden by default on larger screens */}
       <ul className={`md:hidden absolute top-0 right-0 mt-16 w-screen bg-gray-900 text-white font-semibold font-heading space-y-2 ${isMenuOpen ? 'block' : 'hidden'}`}>
-        <li><a className="block px-4 py-2 hover:text-gray-200" href="#">About</a></li>
+        <li><Link className="block px-4 py-2 hover:text-gray-200" to='/'>About</Link></li>
         <li><Link className="hover:text-gray-200 ml-4" to='/mathematics'>Mathematics</Link></li>
         <li><Link className="hover:text-gray-200 ml-4" to='/art'>Art</Link></li>
         <li><Link className="hover:text-gray-200 ml-4" to='/contact'>Contact</Link></li>
