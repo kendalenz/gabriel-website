@@ -1,13 +1,13 @@
 const Contact = () => {
 
     return (
-      <div className=''>
+      <div className='my-24'>
         <form  
           action="https://formspree.io/f/xwkdpzdn"
           method="POST"
         >
         <section className= "body-font relative">
-        <div className="container px-5 py-24 mx-auto">
+        <div className="container px-5 py-6 mx-auto">
           <div className="flex flex-col text-center w-full mb-12">
             <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">
               Contact Me
