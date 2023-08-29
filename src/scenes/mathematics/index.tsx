@@ -21,7 +21,7 @@ const Mathematics = () => {
             <h1 className='text-2xl'>Dissertation</h1>
         </div>
         <div className='mt-2'>
-          <a href='https://academicworks.cuny.edu/gc_etds/2030/' className='text-center underline hover:text-grey-500'>"Rewriting Methods in Groups with Applications to Cryptography"</a>
+          <a href='https://academicworks.cuny.edu/gc_etds/2030/' target='_blank' className='text-center underline hover:text-grey-500'>"Rewriting Methods in Groups with Applications to Cryptography"</a>
         </div>
       </div>
     </div>

@@ -1,5 +1,8 @@
+import React, {useState} from "react";
 
 const Contact = () => {
+  const [name, setName] = useState<string>('');
+  const [email, setEmail] = useState<string>(''); 
   
   return (
     <div className='my-24'>
@@ -28,7 +31,8 @@ const Contact = () => {
                       type='text'
                       id='name'
                       name='name'
-                      // value={name}
+                      value={name}
+                      onChange={(event) => setName(event.target.value)}
                       className='w-full bg-gray-100 rounded border border-gray-300 focus:border-indigo-500 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out'
                     />
                   </div>
@@ -45,8 +49,8 @@ const Contact = () => {
                       type='email'
                       id='email'
                       name='email'
-                      // value={email}
-                      className='w-full bg-gray-100 rounded border border-gray-300 focus:border-indigo-500 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out'
+                      value={email}
+                      onChange={(event) => setEmail(event.target.value)}                      className='w-full bg-gray-100 rounded border border-gray-300 focus:border-indigo-500 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out'
                     />
                   </div>
                 </div>

@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { Link } from 'react-router-dom';
 
 const Navbar = () => {
-  const [isMenuOpen, setMenuOpen] = useState(false);
+  const [isMenuOpen, setMenuOpen] = useState<boolean>(false);
 
   return (
     <nav className='flex flex-col md:flex-row justify-between bg-black text-white w-screen px-5 xl:px-12'>
