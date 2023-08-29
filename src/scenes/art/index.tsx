@@ -16,7 +16,7 @@ const Art = () => {
 
   return (
     <div className='flex flex-wrap sm:mx-8 md:mx-20 my-24'>
-      <h1 className='text-2xl mx-8'>Abstract Expressionism</h1>
+      <h1 className='text-2xl mx-8'>Neo-Idealism</h1>
 
       <motion.div 
         className='md:flex items-start gap-0 mt-5'
