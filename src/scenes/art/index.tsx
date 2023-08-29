@@ -3,7 +3,7 @@ import art1 from '@/assets/art1.jpg';
 
 const Art = () => {
   return (
-    <div className='flex flex-wrap sm:mx-10 md:mx-20 my-24'>
+    <div className='flex flex-wrap sm:mx-8 md:mx-20 my-24'>
       <div className='relative w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/5 my-8 mx-8 z-0'>
         <div className='relative z-0'>
           <img src={art2} alt='Photo 2' className='w-full h-auto rounded-lg z-0'/>
