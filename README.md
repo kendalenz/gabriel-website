@@ -1,27 +1,15 @@
-# React + TypeScript + Vite
+# Gabriel Zapata Portfolio Website
+A personal portfolio website built using React, Redux, Typescript, Vite, Tailwind, SVG Icons, Framer Motion and Formspree.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+The website was deployed on CloudFlare Pages and can be viewed at: https://gabriel-website.pages.dev/.
 
-Currently, two official plugins are available:
+## Features
+* Mobile responsive
+* Email contact form enabled via Formspree
+## Useage
+After you clone this repo to your desktop, go to its root directory and run npm install to install its dependencies.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Once the dependencies are installed, you can npm run dev to start the application. You will then be able to access it at localhost:5173/.
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+## Support My Work
+If you find my code useful, please consider buying me a coffee: https://www.buymeacoffee.com/kendalenz.
