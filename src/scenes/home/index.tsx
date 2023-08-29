@@ -7,8 +7,8 @@ const Home = () => {
     <div className='mx-20 my-32'>
       <div className='grid grid-cols-1 md:grid-cols-2 gap-4'>
         <motion.div
-          initial="hidden"
-          whileInView="visible"
+          initial='hidden'
+          whileInView='visible'
           viewport={{ once: true, amount: 0.5 }}
           transition={{ duration: 0.5 }}
           variants={{
@@ -21,8 +21,8 @@ const Home = () => {
           </div>
         </motion.div>
         <motion.div
-          initial="hidden"
-          whileInView="visible"
+          initial='hidden'
+          whileInView='visible'
           viewport={{ once: true, amount: 0.5 }}
           transition={{ duration: 0.5 }}
           variants={{
