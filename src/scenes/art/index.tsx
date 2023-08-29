@@ -19,7 +19,7 @@ const Art = () => {
       <h1 className='text-2xl mx-8'>Neo-Idealism</h1>
 
       <motion.div 
-        className='md:flex items-start gap-0 mt-5'
+        className='md:flex justify-center gap-0 mt-5'
         initial='hidden'
         whileInView='visible'
         viewport={{once: true, amount: 0.5}}
