@@ -15,7 +15,7 @@ const Art = () => {
   };
 
   return (
-    <div className='my-32 mx-20'>
+    <div className='my-32 mx-2 md:mx-20'>
     <h1 className='text-2xl xs:text-center sm:text-center md:text-left'>Neo-Idealism</h1>
 
     <div className='flex flex-wrap justify-start'>
