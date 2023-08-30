@@ -1,5 +1,4 @@
 
-import React from 'react';
 import { motion } from 'framer-motion';
 import AbstractExpressionism1 from '@/assets/AbstractExpressionism1.jpg';
 import AbstractExpressionism2 from '@/assets/AbstractExpresssionism2.jpg';
@@ -16,10 +15,10 @@ const Art = () => {
   };
 
   return (
-    <div className='my-24'>
-    <h1 className='text-2xl sm:mx-16 md:mx-28'>Neo-Idealism</h1>
+    <div className='my-32 mx-20'>
+    <h1 className='text-2xl'>Neo-Idealism</h1>
 
-    <div className='flex flex-wrap justify-start sm:mx-8 md:mx-20'>
+    <div className='flex flex-wrap justify-start'>
 
       <motion.div 
         className='flex flex-wrap justify-start mt-5'
