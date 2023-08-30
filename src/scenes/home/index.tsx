@@ -1,4 +1,5 @@
 import archer from '@/assets/archer.png';
+import GabrielZapata from '@/assets/Gabriel-Zapata.jpeg';
 import React, { useEffect } from 'react';
 import { motion, useAnimation } from 'framer-motion';
 
@@ -24,7 +25,7 @@ const Home = () => {
           }}
         >
           <div className='md:order-1'>
-            <img src={archer} alt='Image' id='headshot' className='mx-auto md:mx-0'/>
+            <img src={GabrielZapata} alt='Image' id='headshot' className='mx-auto md:mx-0'/>
           </div>
         </motion.div>
         <motion.div
@@ -34,7 +35,12 @@ const Home = () => {
          className='md:order-2'
         >
           <div className='md:order-2'>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod augue ut imperdiet mollis. Integer eu lacinia quam, id scelerisque eros. In mollis, magna ut varius efficitur, quam mi posuere mauris, eget malesuada risus nulla molestie libero. Vivamus varius, libero nec condimentum commodo, est leo consectetur magna, eget mattis massa dolor vitae odio. Etiam nibh ex, convallis scelerisque ipsum vel, aliquet lacinia magna. In tincidunt iaculis mi ac varius. Nam eleifend dui ex, ut dictum purus sodales ut. Nam ornare mattis nisi nec sagittis. Praesent tempor maximus nunc eget placerat. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Quisque auctor mi vitae vehicula varius. Donec feugiat risus finibus lorem ornare, sit amet tincidunt tortor cursus. Nam vitae lobortis erat, vel porta mauris. Nam magna nunc, sodales id maximus at, euismod ut nisl. Maecenas ac est faucibus, dictum metus vel, molestie dui. Nunc eu aliquam metus, in placerat lorem.
+            <p className='mb-4'>
+            Gabriel Zapata, PhD is a mathemetician and artist living in New York City. He helped develop the foundations of non-commutative, post-quantum group-based cryptography, and designed the generalized Diffie Helman key exchange, promoting the potential use of decision problems in the field while describing the first axioms for algebraic cryptography. 
+            </p>
+            <p>
+            He also explores new forms of expressionism and abstract art using mixed mediums on canvas. His creations represent the world as dynamic, complex, chaotic invariants and infinitely expressive mental forms. 
+            </p>
           </div>
         </motion.div>
       </div>
