@@ -1,25 +1,28 @@
+
+import React from 'react';
+import { motion } from 'framer-motion';
 import AbstractExpressionism1 from '@/assets/AbstractExpressionism1.jpg';
 import AbstractExpressionism2 from '@/assets/AbstractExpresssionism2.jpg';
 import AbstractExpressionism3 from '@/assets/AbstractExpressionism3.jpg';
-import {motion} from 'framer-motion';
 
 const Art = () => {
-
   const container = {
     hidden: {},
     visible: {
       transition: {
-        staggerChildren: 0.2
-      }
-    }
+        staggerChildren: 0.2,
+      },
+    },
   };
 
   return (
-    <div className='flex flex-wrap sm:mx-8 md:mx-20 my-24'>
-      <h1 className='text-2xl mx-8'>Neo-Idealism</h1>
+    <div className='my-24'>
+    <h1 className='text-2xl sm:mx-16 md:mx-28'>Neo-Idealism</h1>
+
+    <div className='flex flex-wrap justify-start sm:mx-8 md:mx-20'>
 
       <motion.div 
-        className='md:flex justify-center gap-0 mt-5'
+        className='flex flex-wrap justify-start mt-5'
         initial='hidden'
         whileInView='visible'
         viewport={{once: true, amount: 0.5}}
@@ -27,7 +30,7 @@ const Art = () => {
       >
          <div className='relative w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/5 my-8 mx-8'>
           <div className='relative z-10'>
-            <img src={AbstractExpressionism1} alt='Untitled Abstract Expressionism 1' className='w-full h-auto rounded-lg'/>
+            <img src={AbstractExpressionism1} alt='Untitled Abstract Expressionism 1' className='w-full h-auto rounded-lg max-w-full'/>
             <div className='absolute inset-0 flex flex-col items-center justify-center opacity-0 transition duration-300 bg-black bg-opacity-50 hover:opacity-100 rounded-lg'>
               <h4 className='text-white text-center'>Untitled 1</h4>
               {/* <p className='text-white text-center'>Description</p> */}
@@ -36,7 +39,7 @@ const Art = () => {
         </div>
         <div className='relative w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/5 my-8 mx-8 z-0'>
           <div className='relative z-0'>
-            <img src={AbstractExpressionism2} alt='Untitled Abstract Expressionism 2' className='w-full h-auto rounded-lg z-0'/>
+            <img src={AbstractExpressionism2} alt='Untitled Abstract Expressionism 2' className='w-full h-auto rounded-lg max-w-full z-0'/>
             <div className='absolute inset-0 flex flex-col items-center justify-center opacity-0 transition duration-300 bg-black bg-opacity-50 hover:opacity-100 rounded-lg'>
               <h4 className='text-white text-center'>Untitled 2</h4>
               {/* <p className='text-white text-center'>Neo-abstract Idealism</p> */}
@@ -45,7 +48,7 @@ const Art = () => {
         </div>
         <div className='relative w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/5 my-8 mx-8 z-0'>
           <div className='relative z-0'>
-            <img src={AbstractExpressionism3} alt='Untitled Abstract Expressionism 3' className='w-full h-auto rounded-lg z-0'/>
+            <img src={AbstractExpressionism3} alt='Untitled Abstract Expressionism 3' className='w-full h-auto rounded-lg max-w-full z-0'/>
             <div className='absolute inset-0 flex flex-col items-center justify-center opacity-0 transition duration-300 bg-black bg-opacity-50 hover:opacity-100 rounded-lg'>
               <h4 className='text-white text-center'>Untitled 3</h4>
               {/* <p className='text-white text-center'>Neo-abstract Idealism</p> */}
@@ -53,6 +56,7 @@ const Art = () => {
           </div>
         </div>
       </motion.div>
+    </div>
     </div>
   );
 };
