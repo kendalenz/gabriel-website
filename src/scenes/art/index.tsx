@@ -16,12 +16,12 @@ const Art = () => {
 
   return (
     <div className='my-32 mx-20'>
-    <h1 className='text-2xl'>Neo-Idealism</h1>
+    <h1 className='text-2xl xs:text-center sm:text-center md:text-left'>Neo-Idealism</h1>
 
     <div className='flex flex-wrap justify-start'>
 
       <motion.div 
-        className='flex flex-wrap justify-start mt-5'
+        className='flex flex-wrap sm:justify-center md:justify-start mt-5'
         initial='hidden'
         whileInView='visible'
         viewport={{once: true, amount: 0.5}}
