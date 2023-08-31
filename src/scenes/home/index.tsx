@@ -1,4 +1,3 @@
-import archer from '@/assets/archer.png';
 import GabrielZapata from '@/assets/Gabriel-Zapata.jpeg';
 import React, { useEffect } from 'react';
 import { motion, useAnimation } from 'framer-motion';
