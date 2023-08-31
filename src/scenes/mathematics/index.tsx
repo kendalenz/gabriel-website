@@ -14,7 +14,15 @@ const Mathematics = () => {
           visible: { opacity: 1, x: 0 },
         }}
       >
-        Dr. Zapata holds a PhD in Mathematics from The Graduate Center, City University of New York. Euismod lacinia at quis risus sed vulputate. Nunc non blandit massa enim nec. Nec dui nunc mattis enim ut tellus elementum sagittis vitae. Diam sollicitudin tempor id eu nisl nunc. Aliquam sem et tortor consequat id. Pharetra et ultrices neque ornare aenean euismod elementum nisi. Pharetra diam sit amet nisl suscipit adipiscing bibendum. Sagittis vitae et leo duis ut. In egestas erat imperdiet sed euismod nisi porta. Molestie at elementum eu facilisis sed odio morbi quis commodo.
+        <p className='mb-4'>
+          Dr. Zapata holds a PhD in Mathematics from The Graduate Center, City University of New York. He helped develop the foundations of non-commutative, post-quantum group-based cryptography, and designed the generalized Diffie Helman key exchange, promoting the potential use of decision problems in the field while describing the first axioms for algebraic cryptography. 
+        </p>
+        <p className='mb-4'>
+          His professional journey is defined by a dual commitment to advance in his field through innovative research and to cultivate youth through teaching and mentorship. His research endeavors center around the nuances of non-commutative algebra, advancing the exploration of cryptographic protocols and encryption algorithms. Many of his colleagues have applied his work to create patents, such as using his seminal work on the semidirect product of groups and rewriting systems. He embraces a relentless commitment to lifelong learning, ensuring he remains at the vanguard of the fields he loves.
+        </p>
+        <p>
+          Dr. Zapata's desire to share his knowledge motivated him to pursue teaching. As an educator, he brings a deep dedication to instilling a profound appreciation for mathematics within students. He employs a blend of engaging pedagogical methods, interactive coursework, and personalized mentorship to equip the next generation with the analytical and problem-solving skills essential for excellence. He believes strongly in promoting social mobility among underrepresented groups through facilitating equity, diversity, and inclusion in higher education. 
+        </p>
       </motion.div>
       <motion.div
         className='relative mt-16 basis-2/5 md:mt-0'
