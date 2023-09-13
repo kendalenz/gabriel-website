@@ -16,10 +16,14 @@ const Art = () => {
 
   return (
     <div className='my-32 mx-2 md:mx-20'>
+      <p className='mb-4'>
+        Dr. Zapata explores new forms of expressionism and abstract art using mixed mediums on canvas. His creations represent the world as dynamic, complex, chaotic invariants and infinitely expressive mental forms. He seeks to engage viewers in a dialogue with the ineffable.
+      </p> 
+      <p className='mb-4'>
+        He studied draftsmanship, painting, and sculpting at the Art Students League of New York. 
+      </p>
     <h1 className='text-2xl xs:text-center sm:text-center md:text-left'>Neo-Idealism</h1>
-
     <div className='flex flex-wrap justify-start'>
-
       <motion.div 
         className='flex flex-wrap sm:justify-center md:justify-start mt-5'
         initial='hidden'

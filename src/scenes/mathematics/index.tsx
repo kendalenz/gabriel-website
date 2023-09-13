@@ -1,14 +1,34 @@
-import {motion} from 'framer-motion';
+// import {motion} from 'framer-motion';
+// import DownloadPDF from '../Papers';
+import { motion, useAnimation } from 'framer-motion';
 import DownloadPDF from '../Papers';
+import { useEffect } from 'react';
 
 const Mathematics = () => {
 
+  const controls1 = useAnimation();
+  const controls2 = useAnimation();
+
+  useEffect(() => {
+    controls1.start('visible');
+    controls2.start('visible');
+  }, [controls1, controls2]);
+
   return (
     <div className='mx-20 my-32'>
-      <motion.div
+      {/* <motion.div
         initial='hidden'
         whileInView='visible'
         viewport={{ once: true, amount: 0.5 }}
+        transition={{ duration: 0.5 }}
+        variants={{
+          hidden: { opacity: 0, x: -50 },
+          visible: { opacity: 1, x: 0 },
+        }}
+      > */}
+        <motion.div
+        initial='hidden'
+        animate={controls1}
         transition={{ duration: 0.5 }}
         variants={{
           hidden: { opacity: 0, x: -50 },
@@ -25,11 +45,21 @@ const Mathematics = () => {
           Dr. Zapata's desire to share his knowledge motivated him to pursue teaching. As an educator, he brings a deep dedication to instilling a profound appreciation for mathematics within students. He employs a blend of engaging pedagogical methods, interactive coursework, and personalized mentorship to equip the next generation with the analytical and problem-solving skills essential for excellence. He believes strongly in promoting social mobility among underrepresented groups through facilitating equity, diversity, and inclusion in higher education. 
         </p>
       </motion.div>
-      <motion.div
+      {/* <motion.div
         className='relative mt-16 basis-2/5 md:mt-0'
         initial='hidden'
         whileInView='visible'
         viewport={{ once: true, amount: 0.5 }}
+        transition={{ delay: 0.2, duration: 0.5 }}
+        variants={{
+          hidden: { opacity: 0, y: 50 },
+          visible: { opacity: 1, y: 0 },
+        }}
+      > */}
+      <motion.div
+        className='relative mt-16 basis-2/5 md:mt-0'
+        initial='hidden'
+        animate={controls2}
         transition={{ delay: 0.2, duration: 0.5 }}
         variants={{
           hidden: { opacity: 0, y: 50 },
