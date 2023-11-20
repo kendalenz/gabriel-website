@@ -1,8 +1,8 @@
 
 import { motion, useAnimation } from 'framer-motion';
-import AbstractExpressionism1 from '@/assets/AbstractExpressionism1.jpg';
-import AbstractExpressionism2 from '@/assets/AbstractExpresssionism2.jpg';
-import AbstractExpressionism3 from '@/assets/AbstractExpressionism3.jpg';
+import AbstractExpressionism1 from '@/assets/abstract-expressionism-1.jpg';
+import AbstractExpressionism2 from '@/assets/abstract-expresssionism-2.jpg';
+import AbstractExpressionism3 from '@/assets/abstract-expressionism-3.jpg';
 import { useEffect } from 'react';
 
 const Art = () => {

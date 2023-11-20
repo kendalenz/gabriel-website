@@ -1,4 +1,4 @@
-import GabrielZapata from '@/assets/Gabriel-Zapata.jpeg';
+import GabrielZapata from '@/assets/gabriel-zapata.jpeg';
 import React, { useEffect } from 'react';
 import { motion, useAnimation } from 'framer-motion';
 

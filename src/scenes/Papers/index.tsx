@@ -1,14 +1,14 @@
 const DownloadPDF = () => {
-  const pdfUrl3 = '../src/assets/Rewriting-Group-Products-with-Transversals.pdf'; 
+  const pdfUrl3 = '../src/assets/rewriting-group-products-with-transversals.pdf'; 
   const pdfFileName3 = 'Rewriting-Group-Products-with-Transversals.pdf'; 
   
-  const pdfUrl2 = '../src/assets/Preservation-of-Trees-by-Semidirect-Products.pdf';
+  const pdfUrl2 = '../src/assets/preservation-of-trees-by-semidirect-products.pdf';
   const pdfFileName2 = 'Preservation-of-Trees-by-Semidirect-Products.pdf'
     
-  const pdfUrl4 = '../src/assets/Using-Decision-Problems-in-Public-Key-Cryptography.pdf';
+  const pdfUrl4 = '../src/assets/using-decision-problems-in-public-key-cryptography.pdf';
   const pdfFileName4 = 'Using-Decision-Problems-in-Public-Key-Cryptography.pdf';
 
-  const pdfUrl1 = '../src/assets/Combinatorial-Group-Theory-and-Public-Key-Cryptography.pdf';
+  const pdfUrl1 = '../src/assets/combinatorial-group-theory-and-public-key-cryptography.pdf';
   const pdfFileName1 = 'Combinatorial-Group-Theory-and-Public-Key-Cryptography.pdf';
 
     return (
