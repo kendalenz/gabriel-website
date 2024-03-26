@@ -91,10 +91,10 @@ import AbstractExpressionism2 from '@/assets/abstract-expresssionism-2.jpg';
 import AbstractExpressionism3 from '@/assets/abstract-expressionism-3.jpg';
 
 const Art = () => {
-  const [selectedImg, setSelectedImg] = useState(null);
+  const [selectedImg, setSelectedImg] = useState<number|null>(null);
   const images = [AbstractExpressionism1, AbstractExpressionism2, AbstractExpressionism3];
 
-  const handleImageClick = (img) => {
+  const handleImageClick = (img:string) => {
     setSelectedImg(images.indexOf(img));
   };
 
@@ -103,13 +103,13 @@ const Art = () => {
   };
 
   const handleNext = () => {
-    setSelectedImg((prevIndex) => (prevIndex + 1) % images.length);
+    setSelectedImg((prevIndex) => ((prevIndex ?? 0) + 1) % images.length);
   };
-
+  
   const handlePrev = () => {
-    setSelectedImg((prevIndex) => (prevIndex - 1 + images.length) % images.length);
+    setSelectedImg((prevIndex) => ((prevIndex ?? images.length) - 1 + images.length) % images.length);
   };
-
+  
   return (
     <div className='my-32 mx-2 md:mx-20'>
       {/* Image grid and descriptions go here */}
