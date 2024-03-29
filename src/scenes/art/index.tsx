@@ -131,14 +131,16 @@ const Art = () => {
           exit={{ opacity: 0 }}
           className='fixed top-0 left-0 right-0 bottom-0 bg-white flex items-center justify-center z-50'
           >
-            <button onClick={handleClose} className='absolute top-4 right-4 text-black'>
+            <button onClick={handleClose} className='absolute top-4 right-4  text-white bg-black bg-opacity-50 px-3 py-1 rounded'>
               <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                 <line x1="18" y1="6" x2="6" y2="18"></line>
                 <line x1="6" y1="6" x2="18" y2="18"></line>
               </svg>
             </button>
-            <button onClick={handlePrev} className='absolute left-24 text-black'>Prev</button>
-            <button onClick={handleNext} className='absolute right-24 text-black'>Next</button>
+            {/* <button onClick={handlePrev} className='absolute left-24 text-black'>Prev</button>
+            <button onClick={handleNext} className='absolute right-24 text-black'>Next</button> */}
+            <button onClick={handlePrev} className='absolute left-4 md:left-24 bottom-4 md:bottom-auto text-white bg-black bg-opacity-50 px-3 py-1 rounded'>Prev</button>
+            <button onClick={handleNext} className='absolute right-4 md:right-24 bottom-4 md:bottom-auto text-white bg-black bg-opacity-50 px-3 py-1 rounded'>Next</button>
             <img src={images[selectedImg]} alt={`Fullscreen view`} className='max-w-full max-h-full'/>
           </motion.div>
         )}
