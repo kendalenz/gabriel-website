@@ -113,6 +113,7 @@ const Art = () => {
   return (
     <div className='my-32 mx-2 md:mx-20'>
       {/* Image grid and descriptions go here */}
+      <h1 className='text-4xl font-bold mb-4 mx-8'>Art</h1>
       <div className='flex flex-wrap justify-start'>
         {/* Images mapping */}
         {images.map((img, index) => (

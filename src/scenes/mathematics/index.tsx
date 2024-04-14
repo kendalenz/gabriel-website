@@ -35,6 +35,7 @@ const Mathematics = () => {
           visible: { opacity: 1, x: 0 },
         }}
       >
+        <h1 className='text-4xl font-bold mb-4'>Mathematics</h1>
         <p className='mb-4'>
           Dr. Zapata holds a PhD in Mathematics from The Graduate Center, City University of New York. He helped develop the foundations of non-commutative, post-quantum group-based cryptography, and designed the generalized Diffie Helman key exchange, promoting the potential use of decision problems in the field while describing the first axioms for algebraic cryptography. 
         </p>

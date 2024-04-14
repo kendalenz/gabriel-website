@@ -34,11 +34,16 @@ const Home = () => {
          className='md:order-2'
         >
           <div className='md:order-2'>
+            <h1 className='text-4xl font-bold mb-4'>About</h1>
             <p className='mb-4'>
             Gabriel Zapata, PhD is a mathemetician and artist living in New York City. He helped develop the foundations of non-commutative, post-quantum group-based cryptography, and designed the generalized Diffie Helman key exchange, promoting the potential use of decision problems in the field while describing the first axioms for algebraic cryptography. 
             </p>
             <p>
-            He also explores new forms of expressionism and abstract art using mixed mediums on canvas. His creations represent the world as dynamic, complex, chaotic invariants and infinitely expressive mental forms. 
+            Dr. Zapata is passionate about teaching and is committed to nurturing his students' intellectual and creative capacities and fostering a deep-seated appreciation for mathematics. He uses dynamic teaching methods, interactive coursework, and personalized guidance to equip his students with the critical analytical and problem-solving skills necessary for achieving excellence. 
+            </p>
+            <br></br>
+            <p>
+            In his free time, Dr. Zapata explores new forms of expressionism and abstract art using mixed mediums on canvas. His creations represent the world as dynamic, complex, chaotic invariants and infinitely expressive mental forms. 
             </p>
           </div>
         </motion.div>
